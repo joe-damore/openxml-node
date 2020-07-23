@@ -9,5 +9,9 @@
   "repository": "git@github.com:joe-damore/openxml-node.git",
   "author": "Joe D'Amore <joe@joedamore.me>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "pixl-xml": "^1.0.13"
+  }
 }
