@@ -1,0 +1,10 @@
+{
+  "name": "openxml-node",
+  "version": "0.1.0",
+  "description": "General purpose OpenXML library written in JavaScript",
+  "main": "src/index.js",
+  "repository": "git@github.com:joe-damore/openxml-node.git",
+  "author": "Joe D'Amore <joe@joedamore.me>",
+  "license": "MIT",
+  "private": false
+}
