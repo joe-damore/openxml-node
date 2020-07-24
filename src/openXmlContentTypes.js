@@ -2,6 +2,17 @@ const path = require('path');
 
 /**
  * Tracks MIME-like content types of files within an OpenXML package.
+ *
+ * This object is used to determine the content types of parts within
+ * the `OpenXmlPackage` instance to which this `OpenXmlContentTypes` instance
+ * belongs.
+ *
+ * Modifying a package's `OpenXmlContentTypes` affects how content types are
+ * determined for the remainder of the `OpenXmlPackage` instance's lifetime.
+ *
+ * This contents of this object are not serialized when a package is written.
+ * To persist changes to a package's content types, modify the package's
+ * corresponding `OpenXmlPart` instance whose `uri` is `[Content_Types].xml`.
  */
 class OpenXmlContentTypes {
 
