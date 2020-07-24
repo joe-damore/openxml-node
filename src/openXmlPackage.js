@@ -2,7 +2,8 @@
  * Open XML document package.
  *
  * Contains part, content type, and relationship data that forms an OpenXML
- * package. Also provides utilities with which to manipulate this data.
+ * package. Also provides utilities with which to retrieve and manipulate this
+ * data.
  */
 class OpenXmlPackage {
 
