@@ -178,9 +178,7 @@ const _partsArrayToMap = (partsArray) => {
 };
 
 /**
- * Collection of functions to create OpenXmlPackage instances.
- *
- * Supports loading packages from disk and from memory.
+ * Collection of functions to read OpenXML packages from various sources.
  */
 const OpenXmlReader = {
 
